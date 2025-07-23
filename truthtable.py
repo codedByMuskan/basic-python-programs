@@ -12,3 +12,8 @@ print("True and False is", True or False)
 print("True and  True is", True or False)
 print("False and False is", True or False)
 print("False and True is",True or False)
+
+# " not "
+
+print(not(True))
+print(not(False))
