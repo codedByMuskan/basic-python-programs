@@ -1,0 +1,5 @@
+friends = ("Muskan", "apple","youtube","instagram","68t3qy","647")
+print(friends[0])
+
+print(friends[5])
+print (friends[3])
