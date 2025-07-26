@@ -1,12 +1,6 @@
-## Ask the user to enter a number
-num = int(input("Enter a number: "))
+n = int(input("Enter the number:"))
 
-# Start factorial from 1
-factorial = 1
-
-# Make a loop from 1 to the number (including the number)
-for i in range(1, num + 1):
-    factorial = factorial * i  # multiply factorial by i every time
-
-# Show the answer
-print("Factorial of", num, "is", factorial)
+product = 1
+for i in range(1, n+1):
+    product = product * i
+print(f"the factorial of{n} is {product}")
